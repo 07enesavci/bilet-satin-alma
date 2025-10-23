@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  web:
+    build: .
+    container_name: bilet_satin_alma
+    ports:
+      - "8080:80"
+    volumes:
+      - ./public:/var/www/html
+      - ./db:/var/www/db
+      - ./db.php:/var/www/db.php
+      - ./vendor:/var/www/vendor
+    restart: unless-stopped
+    # user: "www-data" 

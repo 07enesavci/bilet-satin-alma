@@ -1,0 +1,5 @@
+:root { --bs-body-font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; }
+.seat-btn { min-width: 90px; }
+.seat-legend .badge { vertical-align: middle; }
+.card { border-radius: 1rem; }
+.navbar-brand { letter-spacing: .5px; }
